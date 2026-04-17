@@ -1,4 +1,5 @@
-from crewai import Agent , Task , Crew , LLM , Process
+from crewai import Agent , Task , Crew , LLM
+from crewai import Process
 from crewai.tools import tool
 from langchain_community.tools import DuckDuckGoSearchRun
 import os 
